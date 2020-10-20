@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const os = require("os");
-const port = 80;
+const port = 8080;
 
 app.get("/", (req, res) => {
   const nets = os.networkInterfaces();
